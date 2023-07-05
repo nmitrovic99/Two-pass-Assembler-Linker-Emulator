@@ -1,0 +1,37 @@
+Symbol Table
+                 Num               Value                Size                Bind                 Ndx                Name
+                   0            00000000                   0               local                   0                 UND
+                   1            00000000                   0              global                   0           isr_timer
+                   2            00000000                   0              global                   0        isr_terminal
+                   3            00000000                   0              global                   0        isr_software
+                   4            00000000                 104               local                   4          my_handler
+                   5            00000000                   0              global                   4             handler
+                   6            00000024                   0               local                   4              finish
+                   7            00000034                   0               local                   4        handle_timer
+                   8            0000003c                   0               local                   4     handle_terminal
+                   9            00000044                   0               local                   4     handle_software
+
+Section: my_handler(104)
+81 e0 1f fc 81 e0 2f fc 
+90 12 00 00 91 20 00 02 
+39 f1 20 38 91 20 00 03 
+39 f1 20 34 91 20 00 04 
+39 f1 20 30 93 2e 00 04 
+93 1e 00 04 96 0e 00 04 
+93 fe 00 08 21 f0 00 20 
+38 f0 00 20 21 f0 00 20 
+38 f0 00 18 21 f0 00 1c 
+38 f0 00 10 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+
+Relocation Record List
+             Section              Offset                Type            SymbolId              Addend
+          my_handler                  76                R_32      4 (my_handler)                  52
+          my_handler                  80                R_32      4 (my_handler)                  60
+          my_handler                  84                R_32      4 (my_handler)                  68
+          my_handler                  88                R_32       1 (isr_timer)                   0
+          my_handler                  92                R_32      4 (my_handler)                  36
+          my_handler                  96                R_32    2 (isr_terminal)                   0
+          my_handler                 100                R_32    3 (isr_software)                   0

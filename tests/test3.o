@@ -1,0 +1,19 @@
+Symbol Table
+                 Num               Value                Size                Bind                 Ndx                Name
+                   0            00000000                   0               local                   0                 UND
+                   1            00000000                  40               local                   1               .text
+                   2            00000000                   0              global                   1           startTest
+                   3            0000000c                   0               local                   1 calculate_factorial
+                   4            0000001c                   0               local                   1     end_calculation
+
+Section: .text(40)
+91 10 00 07 91 20 00 01 
+91 30 00 01 39 f1 30 10 
+52 22 10 00 51 11 30 00 
+38 f0 00 08 91 72 00 00 
+00 00 00 00 00 00 00 00 
+
+Relocation Record List
+             Section              Offset                Type            SymbolId              Addend
+               .text                  32                R_32           1 (.text)                  28
+               .text                  36                R_32           1 (.text)                  12

@@ -1,0 +1,504 @@
+Instrukcija: 92ef00c0 opcode: 92 regA: 14 regB: 15 regC: 0 displ: 192
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: 400000c4=40000004+0+c0
+U registar e se upisuje vrednost: fffffefe
+40000004
+Instrukcija: 921f00c0 opcode: 92 regA: 1 regB: f regC: 0 displ: 192
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: 400000c8=40000008+0+c0
+U registar 1 se upisuje vrednost: 0
+40000008
+Instrukcija: 94110000 opcode: 94 regA: 1 regB: 1 regC: 0 displ: 0
+Na redu je instrukcija LD sa modifikatorom 4
+U status registar 1 je upisana vrednost: 0 iz general registra 1
+4000000c
+Instrukcija: 10000000 opcode: 10 regA: 0 regB: 0 regC: 0 displ: 0
+Na redu je instrukcija SOFTVERSKOG PREKIDA
+0
+Instrukcija: 81e01ffc opcode: 81 regA: e regB: 0 regC: 1 displ: -4
+Na redu je instrukcija ST sa modifikatorom 1 (push instr)
+SP sada pokazuje na adresu: fffffef2
+Vrednost koja se upisuje tamo gde pokazuje SP je: 0
+Dohvacen podatak iz memorije je: 0
+4
+Instrukcija: 81e02ffc opcode: 81 regA: e regB: 0 regC: 2 displ: -4
+Na redu je instrukcija ST sa modifikatorom 1 (push instr)
+SP sada pokazuje na adresu: fffffeee
+Vrednost koja se upisuje tamo gde pokazuje SP je: 0
+Dohvacen podatak iz memorije je: 0
+8
+Instrukcija: 90120000 opcode: 90 regA: 1 regB: 2 regC: 0 displ: 0
+Na redu je instrukcija LD sa modifikatorom 0
+U general registar 1 je upisana vrednost: 4 iz statusnog registra 2
+c
+Instrukcija: 91200002 opcode: 91 regA: 2 regB: 0 regC: 0 displ: 2
+Na redu je instrukcija LD sa modifikatorom 1
+U registar 2 se upisuje zbir: 0+2=2
+10
+Instrukcija: 39f12038 opcode: 39 regA: f regB: 1 regC: 2 displ: 56
+Na redu je instrukcija BEQ sa modifikatorom 9
+Nije ispunjen uslov za BEQ instrukciju pa se nastavlja dalje!
+14
+Instrukcija: 91200003 opcode: 91 regA: 2 regB: 0 regC: 0 displ: 3
+Na redu je instrukcija LD sa modifikatorom 1
+U registar 2 se upisuje zbir: 0+3=3
+18
+Instrukcija: 39f12034 opcode: 39 regA: f regB: 1 regC: 2 displ: 52
+Na redu je instrukcija BEQ sa modifikatorom 9
+Nije ispunjen uslov za BEQ instrukciju pa se nastavlja dalje!
+1c
+Instrukcija: 91200004 opcode: 91 regA: 2 regB: 0 regC: 0 displ: 4
+Na redu je instrukcija LD sa modifikatorom 1
+U registar 2 se upisuje zbir: 0+4=4
+20
+Instrukcija: 39f12030 opcode: 39 regA: f regB: 1 regC: 2 displ: 48
+Na redu je instrukcija BEQ sa modifikatorom 9
+Adresa sa koje se uzima adresa za BEQ: 00000054
+BEQ instrukcijom se skace na adresu: 00000044
+Nije ispunjen uslov za BEQ instrukciju pa se nastavlja dalje!
+44
+Instrukcija: 21f0001c opcode: 21 regA: f regB: 0 regC: 0 displ: 28
+Na redu je instrukcija CALL sa modifikatorom 1
+Adresa sa koje se uzima adresa za CALL: 00000064
+Call instrukcijom se skace na adresu: 0000008c
+8c
+Instrukcija: 81e01ffc opcode: 81 regA: e regB: 0 regC: 1 displ: -4
+Na redu je instrukcija ST sa modifikatorom 1 (push instr)
+SP sada pokazuje na adresu: fffffee6
+Vrednost koja se upisuje tamo gde pokazuje SP je: 4
+Dohvacen podatak iz memorije je: 4
+90
+Instrukcija: 81e02ffc opcode: 81 regA: e regB: 0 regC: 2 displ: -4
+Na redu je instrukcija ST sa modifikatorom 1 (push instr)
+SP sada pokazuje na adresu: fffffee2
+Vrednost koja se upisuje tamo gde pokazuje SP je: 4
+Dohvacen podatak iz memorije je: 4
+94
+Instrukcija: 921f0014 opcode: 92 regA: 1 regB: f regC: 0 displ: 20
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: ac=98+0+14
+U registar 1 se upisuje vrednost: abcd
+98
+Instrukcija: 922f0014 opcode: 92 regA: 2 regB: f regC: 0 displ: 20
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: b0=9c+0+14
+U registar 2 se upisuje vrednost: 68
+9c
+Instrukcija: 80201000 opcode: 80 regA: 2 regB: 0 regC: 1 displ: 0
+Na redu je instrukcija ST sa modifikatorom 0
+Vrednost koja se upisuje u ST instrukciji na adresu: 68 je: abcd
+Dohvacen podatak iz memorije je: abcd
+a0
+Instrukcija: 932e0004 opcode: 93 regA: 2 regB: e regC: 0 displ: 4
+Na redu je instrukcija LD sa modifikatorom 3 (push instr)
+Sa adrese fffffee2se uzima vrednost: 4
+Sada je vrednost sp registra: fffffee6
+a4
+Instrukcija: 931e0004 opcode: 93 regA: 1 regB: e regC: 0 displ: 4
+Na redu je instrukcija LD sa modifikatorom 3 (push instr)
+Sa adrese fffffee6se uzima vrednost: 4
+Sada je vrednost sp registra: fffffeea
+a8
+Instrukcija: 93fe0004 opcode: 93 regA: f regB: e regC: 0 displ: 4
+Na redu je instrukcija LD sa modifikatorom 3 (push instr)
+Sa adrese fffffeease uzima vrednost: 48
+Sada je vrednost sp registra: fffffeee
+48
+Instrukcija: 38f00010 opcode: 38 regA: f regB: 0 regC: 0 displ: 16
+Na redu je instrukcija JMP sa modifikatorom 8
+Adresa sa koje se uzima adresa za JMP: 0000005c
+JMP instrukcijom se skace na adresu: 00000024
+24
+Instrukcija: 932e0004 opcode: 93 regA: 2 regB: e regC: 0 displ: 4
+Na redu je instrukcija LD sa modifikatorom 3 (push instr)
+Sa adrese fffffeeese uzima vrednost: 0
+Sada je vrednost sp registra: fffffef2
+28
+Instrukcija: 931e0004 opcode: 93 regA: 1 regB: e regC: 0 displ: 4
+Na redu je instrukcija LD sa modifikatorom 3 (push instr)
+Sa adrese fffffef2se uzima vrednost: 0
+Sada je vrednost sp registra: fffffef6
+2c
+Instrukcija: 960e0004 opcode: 96 regA: 0 regB: e regC: 0 displ: 4
+Na redu je instrukcija LD sa modifikatorom 6
+Adresa sa koje se uzima podatak je: fffffefa=fffffef6+0+4
+U statusni registar 0 se upisuje vrednost: 0
+30
+Instrukcija: 93fe0008 opcode: 93 regA: f regB: e regC: 0 displ: 8
+Na redu je instrukcija LD sa modifikatorom 3 (push instr)
+Sa adrese fffffef6se uzima vrednost: 40000010
+Sada je vrednost sp registra: fffffefe
+40000010
+Instrukcija: 91100001 opcode: 91 regA: 1 regB: 0 regC: 0 displ: 1
+Na redu je instrukcija LD sa modifikatorom 1
+U registar 1 se upisuje zbir: 0+1=1
+40000014
+Instrukcija: 81e01ffc opcode: 81 regA: e regB: 0 regC: 1 displ: -4
+Na redu je instrukcija ST sa modifikatorom 1 (push instr)
+SP sada pokazuje na adresu: fffffefa
+Vrednost koja se upisuje tamo gde pokazuje SP je: 1
+Dohvacen podatak iz memorije je: 1
+40000018
+Instrukcija: 91100001 opcode: 91 regA: 1 regB: 0 regC: 0 displ: 1
+Na redu je instrukcija LD sa modifikatorom 1
+U registar 1 se upisuje zbir: 0+1=1
+4000001c
+Instrukcija: 81e01ffc opcode: 81 regA: e regB: 0 regC: 1 displ: -4
+Na redu je instrukcija ST sa modifikatorom 1 (push instr)
+SP sada pokazuje na adresu: fffffef6
+Vrednost koja se upisuje tamo gde pokazuje SP je: 1
+Dohvacen podatak iz memorije je: 1
+40000020
+Instrukcija: 21f000a8 opcode: 21 regA: f regB: 0 regC: 0 displ: 168
+Na redu je instrukcija CALL sa modifikatorom 1
+Adresa sa koje se uzima adresa za CALL: 400000cc
+Call instrukcijom se skace na adresu: f0000000
+f0000000
+Instrukcija: 81e02ffc opcode: 81 regA: e regB: 0 regC: 2 displ: -4
+Na redu je instrukcija ST sa modifikatorom 1 (push instr)
+SP sada pokazuje na adresu: fffffeee
+Vrednost koja se upisuje tamo gde pokazuje SP je: 0
+Dohvacen podatak iz memorije je: 0
+f0000004
+Instrukcija: 921e0008 opcode: 92 regA: 1 regB: e regC: 0 displ: 8
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: fffffef6=fffffeee+0+8
+U registar 1 se upisuje vrednost: 1
+f0000008
+Instrukcija: 922e000c opcode: 92 regA: 2 regB: e regC: 0 displ: 12
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: fffffefa=fffffeee+0+c
+U registar 2 se upisuje vrednost: 1
+f000000c
+Instrukcija: 50112000 opcode: 50 regA: 1 regB: 1 regC: 2 displ: 0
+Na redu je instrukcija ADD
+Zbir 1 i 1 je: 2
+f0000010
+Instrukcija: 932e0004 opcode: 93 regA: 2 regB: e regC: 0 displ: 4
+Na redu je instrukcija LD sa modifikatorom 3 (push instr)
+Sa adrese fffffeeese uzima vrednost: 0
+Sada je vrednost sp registra: fffffef2
+f0000014
+Instrukcija: 93fe0004 opcode: 93 regA: f regB: e regC: 0 displ: 4
+Na redu je instrukcija LD sa modifikatorom 3 (push instr)
+Sa adrese fffffef2se uzima vrednost: 40000024
+Sada je vrednost sp registra: fffffef6
+40000024
+Instrukcija: 820f10a8 opcode: 82 regA: 0 regB: f regC: 1 displ: 168
+Na redu je instrukcija ST sa modifikatorom 2
+Vrednost koja se upisuje u ST instrukciji na adresu: 6c je: 2
+Dohvacen podatak iz memorije je: 2
+40000028
+Instrukcija: 91100002 opcode: 91 regA: 1 regB: 0 regC: 0 displ: 2
+Na redu je instrukcija LD sa modifikatorom 1
+U registar 1 se upisuje zbir: 0+2=2
+4000002c
+Instrukcija: 81e01ffc opcode: 81 regA: e regB: 0 regC: 1 displ: -4
+Na redu je instrukcija ST sa modifikatorom 1 (push instr)
+SP sada pokazuje na adresu: fffffef2
+Vrednost koja se upisuje tamo gde pokazuje SP je: 2
+Dohvacen podatak iz memorije je: 2
+40000030
+Instrukcija: 91100001 opcode: 91 regA: 1 regB: 0 regC: 0 displ: 1
+Na redu je instrukcija LD sa modifikatorom 1
+U registar 1 se upisuje zbir: 0+1=1
+40000034
+Instrukcija: 81e01ffc opcode: 81 regA: e regB: 0 regC: 1 displ: -4
+Na redu je instrukcija ST sa modifikatorom 1 (push instr)
+SP sada pokazuje na adresu: fffffeee
+Vrednost koja se upisuje tamo gde pokazuje SP je: 1
+Dohvacen podatak iz memorije je: 1
+40000038
+Instrukcija: 21f00098 opcode: 21 regA: f regB: 0 regC: 0 displ: 152
+Na redu je instrukcija CALL sa modifikatorom 1
+Adresa sa koje se uzima adresa za CALL: 400000d4
+Call instrukcijom se skace na adresu: f0000000
+f0000000
+Instrukcija: 81e02ffc opcode: 81 regA: e regB: 0 regC: 2 displ: -4
+Na redu je instrukcija ST sa modifikatorom 1 (push instr)
+SP sada pokazuje na adresu: fffffee6
+Vrednost koja se upisuje tamo gde pokazuje SP je: 0
+Dohvacen podatak iz memorije je: 0
+f0000004
+Instrukcija: 921e0008 opcode: 92 regA: 1 regB: e regC: 0 displ: 8
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: fffffeee=fffffee6+0+8
+U registar 1 se upisuje vrednost: 1
+f0000008
+Instrukcija: 922e000c opcode: 92 regA: 2 regB: e regC: 0 displ: 12
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: fffffef2=fffffee6+0+c
+U registar 2 se upisuje vrednost: 2
+f000000c
+Instrukcija: 50112000 opcode: 50 regA: 1 regB: 1 regC: 2 displ: 0
+Na redu je instrukcija ADD
+Zbir 1 i 2 je: 3
+f0000010
+Instrukcija: 932e0004 opcode: 93 regA: 2 regB: e regC: 0 displ: 4
+Na redu je instrukcija LD sa modifikatorom 3 (push instr)
+Sa adrese fffffee6se uzima vrednost: 0
+Sada je vrednost sp registra: fffffeea
+f0000014
+Instrukcija: 93fe0004 opcode: 93 regA: f regB: e regC: 0 displ: 4
+Na redu je instrukcija LD sa modifikatorom 3 (push instr)
+Sa adrese fffffeease uzima vrednost: 4000003c
+Sada je vrednost sp registra: fffffeee
+4000003c
+Instrukcija: 820f1098 opcode: 82 regA: 0 regB: f regC: 1 displ: 152
+Na redu je instrukcija ST sa modifikatorom 2
+Vrednost koja se upisuje u ST instrukciji na adresu: 70 je: 3
+Dohvacen podatak iz memorije je: 3
+40000040
+Instrukcija: 91100007 opcode: 91 regA: 1 regB: 0 regC: 0 displ: 7
+Na redu je instrukcija LD sa modifikatorom 1
+U registar 1 se upisuje zbir: 0+7=7
+40000044
+Instrukcija: 81e01ffc opcode: 81 regA: e regB: 0 regC: 1 displ: -4
+Na redu je instrukcija ST sa modifikatorom 1 (push instr)
+SP sada pokazuje na adresu: fffffeea
+Vrednost koja se upisuje tamo gde pokazuje SP je: 7
+Dohvacen podatak iz memorije je: 7
+40000048
+Instrukcija: 9110000b opcode: 91 regA: 1 regB: 0 regC: 0 displ: 11
+Na redu je instrukcija LD sa modifikatorom 1
+U registar 1 se upisuje zbir: 0+b=b
+4000004c
+Instrukcija: 81e01ffc opcode: 81 regA: e regB: 0 regC: 1 displ: -4
+Na redu je instrukcija ST sa modifikatorom 1 (push instr)
+SP sada pokazuje na adresu: fffffee6
+Vrednost koja se upisuje tamo gde pokazuje SP je: b
+Dohvacen podatak iz memorije je: b
+40000050
+Instrukcija: 21f00088 opcode: 21 regA: f regB: 0 regC: 0 displ: 136
+Na redu je instrukcija CALL sa modifikatorom 1
+Adresa sa koje se uzima adresa za CALL: 400000dc
+Call instrukcijom se skace na adresu: f0000018
+f0000018
+Instrukcija: 81e02ffc opcode: 81 regA: e regB: 0 regC: 2 displ: -4
+Na redu je instrukcija ST sa modifikatorom 1 (push instr)
+SP sada pokazuje na adresu: fffffede
+Vrednost koja se upisuje tamo gde pokazuje SP je: 0
+Dohvacen podatak iz memorije je: 0
+f000001c
+Instrukcija: 921e0008 opcode: 92 regA: 1 regB: e regC: 0 displ: 8
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: fffffee6=fffffede+0+8
+U registar 1 se upisuje vrednost: b
+f0000020
+Instrukcija: 922e000c opcode: 92 regA: 2 regB: e regC: 0 displ: 12
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: fffffeea=fffffede+0+c
+U registar 2 se upisuje vrednost: 7
+f0000024
+Instrukcija: 51112000 opcode: 51 regA: 1 regB: 1 regC: 2 displ: 0
+Na redu je instrukcija SUB
+Razlika b i 7 je: 4
+f0000028
+Instrukcija: 932e0004 opcode: 93 regA: 2 regB: e regC: 0 displ: 4
+Na redu je instrukcija LD sa modifikatorom 3 (push instr)
+Sa adrese fffffedese uzima vrednost: 0
+Sada je vrednost sp registra: fffffee2
+f000002c
+Instrukcija: 93fe0004 opcode: 93 regA: f regB: e regC: 0 displ: 4
+Na redu je instrukcija LD sa modifikatorom 3 (push instr)
+Sa adrese fffffee2se uzima vrednost: 40000054
+Sada je vrednost sp registra: fffffee6
+40000054
+Instrukcija: 820f1088 opcode: 82 regA: 0 regB: f regC: 1 displ: 136
+Na redu je instrukcija ST sa modifikatorom 2
+Vrednost koja se upisuje u ST instrukciji na adresu: 74 je: 4
+Dohvacen podatak iz memorije je: 4
+40000058
+Instrukcija: 91100005 opcode: 91 regA: 1 regB: 0 regC: 0 displ: 5
+Na redu je instrukcija LD sa modifikatorom 1
+U registar 1 se upisuje zbir: 0+5=5
+4000005c
+Instrukcija: 81e01ffc opcode: 81 regA: e regB: 0 regC: 1 displ: -4
+Na redu je instrukcija ST sa modifikatorom 1 (push instr)
+SP sada pokazuje na adresu: fffffee2
+Vrednost koja se upisuje tamo gde pokazuje SP je: 5
+Dohvacen podatak iz memorije je: 5
+40000060
+Instrukcija: 91100019 opcode: 91 regA: 1 regB: 0 regC: 0 displ: 25
+Na redu je instrukcija LD sa modifikatorom 1
+U registar 1 se upisuje zbir: 0+19=19
+40000064
+Instrukcija: 81e01ffc opcode: 81 regA: e regB: 0 regC: 1 displ: -4
+Na redu je instrukcija ST sa modifikatorom 1 (push instr)
+SP sada pokazuje na adresu: fffffede
+Vrednost koja se upisuje tamo gde pokazuje SP je: 19
+Dohvacen podatak iz memorije je: 19
+40000068
+Instrukcija: 21f00078 opcode: 21 regA: f regB: 0 regC: 0 displ: 120
+Na redu je instrukcija CALL sa modifikatorom 1
+Adresa sa koje se uzima adresa za CALL: 400000e4
+Call instrukcijom se skace na adresu: f0000048
+f0000048
+Instrukcija: 81e02ffc opcode: 81 regA: e regB: 0 regC: 2 displ: -4
+Na redu je instrukcija ST sa modifikatorom 1 (push instr)
+SP sada pokazuje na adresu: fffffed6
+Vrednost koja se upisuje tamo gde pokazuje SP je: 0
+Dohvacen podatak iz memorije je: 0
+f000004c
+Instrukcija: 921e0008 opcode: 92 regA: 1 regB: e regC: 0 displ: 8
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: fffffede=fffffed6+0+8
+U registar 1 se upisuje vrednost: 19
+f0000050
+Instrukcija: 922e000c opcode: 92 regA: 2 regB: e regC: 0 displ: 12
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: fffffee2=fffffed6+0+c
+U registar 2 se upisuje vrednost: 5
+f0000054
+Instrukcija: 53112000 opcode: 53 regA: 1 regB: 1 regC: 2 displ: 0
+Na redu je instrukcija DIV sa modifikatorom B
+Kolicnik 19 i 5 je: 5
+f0000058
+Instrukcija: 932e0004 opcode: 93 regA: 2 regB: e regC: 0 displ: 4
+Na redu je instrukcija LD sa modifikatorom 3 (push instr)
+Sa adrese fffffed6se uzima vrednost: 0
+Sada je vrednost sp registra: fffffeda
+f000005c
+Instrukcija: 93fe0004 opcode: 93 regA: f regB: e regC: 0 displ: 4
+Na redu je instrukcija LD sa modifikatorom 3 (push instr)
+Sa adrese fffffedase uzima vrednost: 4000006c
+Sada je vrednost sp registra: fffffede
+4000006c
+Instrukcija: 820f1078 opcode: 82 regA: 0 regB: f regC: 1 displ: 120
+Na redu je instrukcija ST sa modifikatorom 2
+Vrednost koja se upisuje u ST instrukciji na adresu: 78 je: 5
+Dohvacen podatak iz memorije je: 5
+40000070
+Instrukcija: 91100004 opcode: 91 regA: 1 regB: 0 regC: 0 displ: 4
+Na redu je instrukcija LD sa modifikatorom 1
+U registar 1 se upisuje zbir: 0+4=4
+40000074
+Instrukcija: 81e01ffc opcode: 81 regA: e regB: 0 regC: 1 displ: -4
+Na redu je instrukcija ST sa modifikatorom 1 (push instr)
+SP sada pokazuje na adresu: fffffeda
+Vrednost koja se upisuje tamo gde pokazuje SP je: 4
+Dohvacen podatak iz memorije je: 4
+40000078
+Instrukcija: 91100018 opcode: 91 regA: 1 regB: 0 regC: 0 displ: 24
+Na redu je instrukcija LD sa modifikatorom 1
+U registar 1 se upisuje zbir: 0+18=18
+4000007c
+Instrukcija: 81e01ffc opcode: 81 regA: e regB: 0 regC: 1 displ: -4
+Na redu je instrukcija ST sa modifikatorom 1 (push instr)
+SP sada pokazuje na adresu: fffffed6
+Vrednost koja se upisuje tamo gde pokazuje SP je: 18
+Dohvacen podatak iz memorije je: 18
+40000080
+Instrukcija: 21f00060 opcode: 21 regA: f regB: 0 regC: 0 displ: 96
+Na redu je instrukcija CALL sa modifikatorom 1
+Adresa sa koje se uzima adresa za CALL: 400000e4
+Call instrukcijom se skace na adresu: f0000048
+f0000048
+Instrukcija: 81e02ffc opcode: 81 regA: e regB: 0 regC: 2 displ: -4
+Na redu je instrukcija ST sa modifikatorom 1 (push instr)
+SP sada pokazuje na adresu: fffffece
+Vrednost koja se upisuje tamo gde pokazuje SP je: 0
+Dohvacen podatak iz memorije je: 0
+f000004c
+Instrukcija: 921e0008 opcode: 92 regA: 1 regB: e regC: 0 displ: 8
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: fffffed6=fffffece+0+8
+U registar 1 se upisuje vrednost: 18
+f0000050
+Instrukcija: 922e000c opcode: 92 regA: 2 regB: e regC: 0 displ: 12
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: fffffeda=fffffece+0+c
+U registar 2 se upisuje vrednost: 4
+f0000054
+Instrukcija: 53112000 opcode: 53 regA: 1 regB: 1 regC: 2 displ: 0
+Na redu je instrukcija DIV sa modifikatorom B
+Kolicnik 18 i 4 je: 6
+f0000058
+Instrukcija: 932e0004 opcode: 93 regA: 2 regB: e regC: 0 displ: 4
+Na redu je instrukcija LD sa modifikatorom 3 (push instr)
+Sa adrese fffffecese uzima vrednost: 0
+Sada je vrednost sp registra: fffffed2
+f000005c
+Instrukcija: 93fe0004 opcode: 93 regA: f regB: e regC: 0 displ: 4
+Na redu je instrukcija LD sa modifikatorom 3 (push instr)
+Sa adrese fffffed2se uzima vrednost: 40000084
+Sada je vrednost sp registra: fffffed6
+40000084
+Instrukcija: 820f1064 opcode: 82 regA: 0 regB: f regC: 1 displ: 100
+Na redu je instrukcija ST sa modifikatorom 2
+Vrednost koja se upisuje u ST instrukciji na adresu: 7c je: 6
+Dohvacen podatak iz memorije je: 6
+40000088
+Instrukcija: 921f0064 opcode: 92 regA: 1 regB: f regC: 0 displ: 100
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: 400000f0=4000008c+0+64
+U registar 1 se upisuje vrednost: 68
+4000008c
+Instrukcija: 92110000 opcode: 92 regA: 1 regB: 1 regC: 0 displ: 0
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: 68=68+0+0
+U registar 1 se upisuje vrednost: abcd
+40000090
+Instrukcija: 922f003c opcode: 92 regA: 2 regB: f regC: 0 displ: 60
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: 400000d0=40000094+0+3c
+U registar 2 se upisuje vrednost: 6c
+40000094
+Instrukcija: 92220000 opcode: 92 regA: 2 regB: 2 regC: 0 displ: 0
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: 6c=6c+0+0
+U registar 2 se upisuje vrednost: 2
+40000098
+Instrukcija: 923f003c opcode: 92 regA: 3 regB: f regC: 0 displ: 60
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: 400000d8=4000009c+0+3c
+U registar 3 se upisuje vrednost: 70
+4000009c
+Instrukcija: 92330000 opcode: 92 regA: 3 regB: 3 regC: 0 displ: 0
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: 70=70+0+0
+U registar 3 se upisuje vrednost: 3
+400000a0
+Instrukcija: 924f003c opcode: 92 regA: 4 regB: f regC: 0 displ: 60
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: 400000e0=400000a4+0+3c
+U registar 4 se upisuje vrednost: 74
+400000a4
+Instrukcija: 92440000 opcode: 92 regA: 4 regB: 4 regC: 0 displ: 0
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: 74=74+0+0
+U registar 4 se upisuje vrednost: 4
+400000a8
+Instrukcija: 925f003c opcode: 92 regA: 5 regB: f regC: 0 displ: 60
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: 400000e8=400000ac+0+3c
+U registar 5 se upisuje vrednost: 78
+400000ac
+Instrukcija: 92550000 opcode: 92 regA: 5 regB: 5 regC: 0 displ: 0
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: 78=78+0+0
+U registar 5 se upisuje vrednost: 5
+400000b0
+Instrukcija: 926f0038 opcode: 92 regA: 6 regB: f regC: 0 displ: 56
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: 400000ec=400000b4+0+38
+U registar 6 se upisuje vrednost: 7c
+400000b4
+Instrukcija: 92660000 opcode: 92 regA: 6 regB: 6 regC: 0 displ: 0
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: 7c=7c+0+0
+U registar 6 se upisuje vrednost: 6
+400000b8
+Instrukcija: 927f0038 opcode: 92 regA: 7 regB: f regC: 0 displ: 56
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: 400000f4=400000bc+0+38
+U registar 7 se upisuje vrednost: 80
+400000bc
+Instrukcija: 92770000 opcode: 92 regA: 7 regB: 7 regC: 0 displ: 0
+Na redu je instrukcija LD sa modifikatorom 2
+Adresa sa koje se uzima podatak je: 80=80+0+0
+U registar 7 se upisuje vrednost: 0
+400000c0
+Instrukcija: 00000000 opcode: 00 regA: 0 regB: 0 regC: 0 displ: 0
+Na redu je HALT instrukcija
+400000c4

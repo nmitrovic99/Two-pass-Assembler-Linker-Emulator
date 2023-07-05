@@ -1,0 +1,70 @@
+Symbol Table
+                 Num               Value                Size                Bind                 Ndx                Name
+                   0            00000000                   0               local                   0                 UND
+                   1            00000000                   0              global                   0             handler
+                   2            00000000                   0              global                   0             mathAdd
+                   3            00000000                   0              global                   0             mathSub
+                   4            00000000                   0              global                   0             mathMul
+                   5            00000000                   0              global                   0             mathDiv
+                   6            00000000                 248               local                   6             my_code
+                   7            00000000                   0              global                   6            my_start
+                   8            00000000                  28               local                   8             my_data
+                   9            00000000                   0              global                   8              value1
+                  10            00000004                   0              global                   8              value2
+                  11            00000008                   0              global                   8              value3
+                  12            0000000c                   0              global                   8              value4
+                  13            00000010                   0              global                   8              value5
+                  14            00000014                   0              global                   8              value6
+                  15            00000018                   0              global                   8              value7
+
+Section: my_code(248)
+92 ef 00 c0 92 1f 00 c0 
+94 11 00 00 10 00 00 00 
+91 10 00 01 81 e0 1f fc 
+91 10 00 01 81 e0 1f fc 
+21 f0 00 a8 82 0f 10 a8 
+91 10 00 02 81 e0 1f fc 
+91 10 00 01 81 e0 1f fc 
+21 f0 00 98 82 0f 10 98 
+91 10 00 07 81 e0 1f fc 
+91 10 00 0b 81 e0 1f fc 
+21 f0 00 88 82 0f 10 88 
+91 10 00 05 81 e0 1f fc 
+91 10 00 19 81 e0 1f fc 
+21 f0 00 78 82 0f 10 78 
+91 10 00 04 81 e0 1f fc 
+91 10 00 18 81 e0 1f fc 
+21 f0 00 60 82 0f 10 64 
+92 1f 00 64 92 11 00 00 
+92 2f 00 3c 92 22 00 00 
+92 3f 00 3c 92 33 00 00 
+92 4f 00 3c 92 44 00 00 
+92 5f 00 3c 92 55 00 00 
+92 6f 00 38 92 66 00 00 
+92 7f 00 38 92 77 00 00 
+00 00 00 00 fe fe ff ff 
+00 00 00 00 00 00 00 f0 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+Section: my_data(28)
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+Relocation Record List
+             Section              Offset                Type            SymbolId              Addend
+             my_code                 200                R_32         1 (handler)                   0
+             my_code                 208                R_32         10 (value2)                   0
+             my_code                 212                R_32         2 (mathAdd)                   0
+             my_code                 216                R_32         11 (value3)                   0
+             my_code                 220                R_32         3 (mathSub)                   0
+             my_code                 224                R_32         12 (value4)                   0
+             my_code                 228                R_32         5 (mathDiv)                   0
+             my_code                 232                R_32         13 (value5)                   0
+             my_code                 236                R_32         14 (value6)                   0
+             my_code                 240                R_32          9 (value1)                   0
+             my_code                 244                R_32         15 (value7)                   0

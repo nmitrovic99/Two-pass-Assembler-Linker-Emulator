@@ -1,0 +1,11 @@
+Symbol Table
+                 Num               Value                Size                Bind                 Ndx                Name
+                   0            00000000                   0               local                   0                 UND
+                   1            00000000                   4               local                   1                 isr
+                   2            00000000                   0              global                   1        isr_terminal
+
+Section: isr(4)
+93 fe 00 04 
+
+Relocation Record List
+             Section              Offset                Type            SymbolId              Addend

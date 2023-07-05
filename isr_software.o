@@ -1,0 +1,17 @@
+Symbol Table
+                 Num               Value                Size                Bind                 Ndx                Name
+                   0            00000000                   0               local                   0                 UND
+                   1            00000000                   0              global                   0              value1
+                   2            00000000                  40               local                   2                 isr
+                   3            00000000                   0              global                   2        isr_software
+
+Section: isr(40)
+81 e0 1f fc 81 e0 2f fc 
+92 1f 00 14 92 2f 00 14 
+80 20 10 00 93 2e 00 04 
+93 1e 00 04 93 fe 00 04 
+cd ab 00 00 00 00 00 00 
+
+Relocation Record List
+             Section              Offset                Type            SymbolId              Addend
+                 isr                  36                R_32          1 (value1)                   0

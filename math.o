@@ -1,0 +1,25 @@
+Symbol Table
+                 Num               Value                Size                Bind                 Ndx                Name
+                   0            00000000                   0               local                   0                 UND
+                   1            00000000                  96               local                   1                math
+                   2            00000000                   0              global                   1             mathAdd
+                   3            00000018                   0              global                   1             mathSub
+                   4            00000030                   0              global                   1             mathMul
+                   5            00000048                   0              global                   1             mathDiv
+
+Section: math(96)
+81 e0 2f fc 92 1e 00 08 
+92 2e 00 0c 50 11 20 00 
+93 2e 00 04 93 fe 00 04 
+81 e0 2f fc 92 1e 00 08 
+92 2e 00 0c 51 11 20 00 
+93 2e 00 04 93 fe 00 04 
+81 e0 2f fc 92 1e 00 08 
+92 2e 00 0c 52 11 20 00 
+93 2e 00 04 93 fe 00 04 
+81 e0 2f fc 92 1e 00 08 
+92 2e 00 0c 53 11 20 00 
+93 2e 00 04 93 fe 00 04 
+
+Relocation Record List
+             Section              Offset                Type            SymbolId              Addend
